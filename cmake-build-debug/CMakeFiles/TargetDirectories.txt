@@ -1,3 +1,5 @@
-G:/C++/Algorithm_Training/cmake-build-debug/CMakeFiles/Algorithm_Training.dir
 G:/C++/Algorithm_Training/cmake-build-debug/CMakeFiles/edit_cache.dir
 G:/C++/Algorithm_Training/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+G:/C++/Algorithm_Training/cmake-build-debug/04Dichotomy/CMakeFiles/JumpingStones.dir
+G:/C++/Algorithm_Training/cmake-build-debug/04Dichotomy/CMakeFiles/edit_cache.dir
+G:/C++/Algorithm_Training/cmake-build-debug/04Dichotomy/CMakeFiles/rebuild_cache.dir
