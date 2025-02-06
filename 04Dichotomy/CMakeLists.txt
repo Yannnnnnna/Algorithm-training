@@ -1,1 +1,2 @@
 add_executable(JumpingStones JumpingStones.cpp)
+add_executable(BaboonEatBananas BaboonEatBananas.cpp)

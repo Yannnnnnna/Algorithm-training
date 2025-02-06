@@ -101,6 +101,39 @@ build 04Dichotomy/JumpingStones.exe: CXX_EXECUTABLE_LINKER__JumpingStones_Debug 
   TARGET_IMPLIB = 04Dichotomy\libJumpingStones.dll.a
   TARGET_PDB = JumpingStones.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target BaboonEatBananas
+
+
+#############################################
+# Order-only phony target for BaboonEatBananas
+
+build cmake_object_order_depends_target_BaboonEatBananas: phony || 04Dichotomy/CMakeFiles/BaboonEatBananas.dir
+
+build 04Dichotomy/CMakeFiles/BaboonEatBananas.dir/BaboonEatBananas.cpp.obj: CXX_COMPILER__BaboonEatBananas_Debug G$:/C++/Algorithm_Training/04Dichotomy/BaboonEatBananas.cpp || cmake_object_order_depends_target_BaboonEatBananas
+  DEP_FILE = 04Dichotomy\CMakeFiles\BaboonEatBananas.dir\BaboonEatBananas.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 04Dichotomy\CMakeFiles\BaboonEatBananas.dir
+  OBJECT_FILE_DIR = 04Dichotomy\CMakeFiles\BaboonEatBananas.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target BaboonEatBananas
+
+
+#############################################
+# Link the executable 04Dichotomy\BaboonEatBananas.exe
+
+build 04Dichotomy/BaboonEatBananas.exe: CXX_EXECUTABLE_LINKER__BaboonEatBananas_Debug 04Dichotomy/CMakeFiles/BaboonEatBananas.dir/BaboonEatBananas.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 04Dichotomy\CMakeFiles\BaboonEatBananas.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 04Dichotomy\BaboonEatBananas.exe
+  TARGET_IMPLIB = 04Dichotomy\libBaboonEatBananas.dll.a
+  TARGET_PDB = BaboonEatBananas.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -127,6 +160,10 @@ build 04Dichotomy/rebuild_cache: phony 04Dichotomy/CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build BaboonEatBananas: phony 04Dichotomy/BaboonEatBananas.exe
+
+build BaboonEatBananas.exe: phony 04Dichotomy/BaboonEatBananas.exe
+
 build JumpingStones: phony 04Dichotomy/JumpingStones.exe
 
 build JumpingStones.exe: phony 04Dichotomy/JumpingStones.exe
@@ -146,7 +183,7 @@ build all: phony 04Dichotomy/all
 #############################################
 # Folder: G:/C++/Algorithm_Training/cmake-build-debug/04Dichotomy
 
-build 04Dichotomy/all: phony 04Dichotomy/JumpingStones.exe
+build 04Dichotomy/all: phony 04Dichotomy/JumpingStones.exe 04Dichotomy/BaboonEatBananas.exe
 
 # =============================================================================
 # Built-in targets
