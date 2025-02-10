@@ -4,3 +4,8 @@ G:/C++/Algorithm_Training/cmake-build-debug/04Dichotomy/CMakeFiles/JumpingStones
 G:/C++/Algorithm_Training/cmake-build-debug/04Dichotomy/CMakeFiles/BaboonEatBananas.dir
 G:/C++/Algorithm_Training/cmake-build-debug/04Dichotomy/CMakeFiles/edit_cache.dir
 G:/C++/Algorithm_Training/cmake-build-debug/04Dichotomy/CMakeFiles/rebuild_cache.dir
+G:/C++/Algorithm_Training/cmake-build-debug/05Prime/CMakeFiles/NaiveSieving.dir
+G:/C++/Algorithm_Training/cmake-build-debug/05Prime/CMakeFiles/EhrlichSieve.dir
+G:/C++/Algorithm_Training/cmake-build-debug/05Prime/CMakeFiles/EulerSieve.dir
+G:/C++/Algorithm_Training/cmake-build-debug/05Prime/CMakeFiles/edit_cache.dir
+G:/C++/Algorithm_Training/cmake-build-debug/05Prime/CMakeFiles/rebuild_cache.dir

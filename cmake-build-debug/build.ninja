@@ -158,15 +158,154 @@ build 04Dichotomy/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 build 04Dichotomy/rebuild_cache: phony 04Dichotomy/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# G:/C++/Algorithm_Training/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target NaiveSieving
+
+
+#############################################
+# Order-only phony target for NaiveSieving
+
+build cmake_object_order_depends_target_NaiveSieving: phony || 05Prime/CMakeFiles/NaiveSieving.dir
+
+build 05Prime/CMakeFiles/NaiveSieving.dir/NaiveSieving.cpp.obj: CXX_COMPILER__NaiveSieving_Debug G$:/C++/Algorithm_Training/05Prime/NaiveSieving.cpp || cmake_object_order_depends_target_NaiveSieving
+  DEP_FILE = 05Prime\CMakeFiles\NaiveSieving.dir\NaiveSieving.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 05Prime\CMakeFiles\NaiveSieving.dir
+  OBJECT_FILE_DIR = 05Prime\CMakeFiles\NaiveSieving.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target NaiveSieving
+
+
+#############################################
+# Link the executable 05Prime\NaiveSieving.exe
+
+build 05Prime/NaiveSieving.exe: CXX_EXECUTABLE_LINKER__NaiveSieving_Debug 05Prime/CMakeFiles/NaiveSieving.dir/NaiveSieving.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 05Prime\CMakeFiles\NaiveSieving.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 05Prime\NaiveSieving.exe
+  TARGET_IMPLIB = 05Prime\libNaiveSieving.dll.a
+  TARGET_PDB = NaiveSieving.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target EhrlichSieve
+
+
+#############################################
+# Order-only phony target for EhrlichSieve
+
+build cmake_object_order_depends_target_EhrlichSieve: phony || 05Prime/CMakeFiles/EhrlichSieve.dir
+
+build 05Prime/CMakeFiles/EhrlichSieve.dir/EhrlichSieve.cpp.obj: CXX_COMPILER__EhrlichSieve_Debug G$:/C++/Algorithm_Training/05Prime/EhrlichSieve.cpp || cmake_object_order_depends_target_EhrlichSieve
+  DEP_FILE = 05Prime\CMakeFiles\EhrlichSieve.dir\EhrlichSieve.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 05Prime\CMakeFiles\EhrlichSieve.dir
+  OBJECT_FILE_DIR = 05Prime\CMakeFiles\EhrlichSieve.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target EhrlichSieve
+
+
+#############################################
+# Link the executable 05Prime\EhrlichSieve.exe
+
+build 05Prime/EhrlichSieve.exe: CXX_EXECUTABLE_LINKER__EhrlichSieve_Debug 05Prime/CMakeFiles/EhrlichSieve.dir/EhrlichSieve.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 05Prime\CMakeFiles\EhrlichSieve.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 05Prime\EhrlichSieve.exe
+  TARGET_IMPLIB = 05Prime\libEhrlichSieve.dll.a
+  TARGET_PDB = EhrlichSieve.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target EulerSieve
+
+
+#############################################
+# Order-only phony target for EulerSieve
+
+build cmake_object_order_depends_target_EulerSieve: phony || 05Prime/CMakeFiles/EulerSieve.dir
+
+build 05Prime/CMakeFiles/EulerSieve.dir/EulerSieve.cpp.obj: CXX_COMPILER__EulerSieve_Debug G$:/C++/Algorithm_Training/05Prime/EulerSieve.cpp || cmake_object_order_depends_target_EulerSieve
+  DEP_FILE = 05Prime\CMakeFiles\EulerSieve.dir\EulerSieve.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 05Prime\CMakeFiles\EulerSieve.dir
+  OBJECT_FILE_DIR = 05Prime\CMakeFiles\EulerSieve.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target EulerSieve
+
+
+#############################################
+# Link the executable 05Prime\EulerSieve.exe
+
+build 05Prime/EulerSieve.exe: CXX_EXECUTABLE_LINKER__EulerSieve_Debug 05Prime/CMakeFiles/EulerSieve.dir/EulerSieve.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 05Prime\CMakeFiles\EulerSieve.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 05Prime\EulerSieve.exe
+  TARGET_IMPLIB = 05Prime\libEulerSieve.dll.a
+  TARGET_PDB = EulerSieve.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build 05Prime/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D G:\C++\Algorithm_Training\cmake-build-debug\05Prime && "G:\CLion 2023.1.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build 05Prime/edit_cache: phony 05Prime/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build 05Prime/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D G:\C++\Algorithm_Training\cmake-build-debug\05Prime && "G:\CLion 2023.1.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SG:\C++\Algorithm_Training -BG:\C++\Algorithm_Training\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build 05Prime/rebuild_cache: phony 05Prime/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
 # Target aliases.
 
 build BaboonEatBananas: phony 04Dichotomy/BaboonEatBananas.exe
 
 build BaboonEatBananas.exe: phony 04Dichotomy/BaboonEatBananas.exe
 
+build EhrlichSieve: phony 05Prime/EhrlichSieve.exe
+
+build EhrlichSieve.exe: phony 05Prime/EhrlichSieve.exe
+
+build EulerSieve: phony 05Prime/EulerSieve.exe
+
+build EulerSieve.exe: phony 05Prime/EulerSieve.exe
+
 build JumpingStones: phony 04Dichotomy/JumpingStones.exe
 
 build JumpingStones.exe: phony 04Dichotomy/JumpingStones.exe
+
+build NaiveSieving: phony 05Prime/NaiveSieving.exe
+
+build NaiveSieving.exe: phony 05Prime/NaiveSieving.exe
 
 # =============================================================================
 # Folder targets.
@@ -176,7 +315,7 @@ build JumpingStones.exe: phony 04Dichotomy/JumpingStones.exe
 #############################################
 # Folder: G:/C++/Algorithm_Training/cmake-build-debug
 
-build all: phony 04Dichotomy/all
+build all: phony 04Dichotomy/all 05Prime/all
 
 # =============================================================================
 
@@ -186,20 +325,27 @@ build all: phony 04Dichotomy/all
 build 04Dichotomy/all: phony 04Dichotomy/JumpingStones.exe 04Dichotomy/BaboonEatBananas.exe
 
 # =============================================================================
+
+#############################################
+# Folder: G:/C++/Algorithm_Training/cmake-build-debug/05Prime
+
+build 05Prime/all: phony 05Prime/NaiveSieving.exe 05Prime/EhrlichSieve.exe 05Prime/EulerSieve.exe
+
+# =============================================================================
 # Built-in targets
 
 
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeCXXCompiler.cmake CMakeFiles/3.25.2/CMakeRCCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake G$:/C++/Algorithm_Training/04Dichotomy/CMakeLists.txt G$:/C++/Algorithm_Training/CMakeLists.txt G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCXXInformation.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeRCInformation.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-C.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-CXX.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C-ABI.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-CXX-ABI.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-CXX.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-windres.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/WindowsPaths.cmake
+build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeCXXCompiler.cmake CMakeFiles/3.25.2/CMakeRCCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake G$:/C++/Algorithm_Training/04Dichotomy/CMakeLists.txt G$:/C++/Algorithm_Training/05Prime/CMakeLists.txt G$:/C++/Algorithm_Training/CMakeLists.txt G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCXXInformation.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeRCInformation.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-C.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-CXX.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C-ABI.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-CXX-ABI.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-CXX.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-windres.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/WindowsPaths.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeCXXCompiler.cmake CMakeFiles/3.25.2/CMakeRCCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake G$:/C++/Algorithm_Training/04Dichotomy/CMakeLists.txt G$:/C++/Algorithm_Training/CMakeLists.txt G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCXXInformation.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeRCInformation.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-C.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-CXX.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C-ABI.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-CXX-ABI.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-CXX.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-windres.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/WindowsPaths.cmake: phony
+build CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeCXXCompiler.cmake CMakeFiles/3.25.2/CMakeRCCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake G$:/C++/Algorithm_Training/04Dichotomy/CMakeLists.txt G$:/C++/Algorithm_Training/05Prime/CMakeLists.txt G$:/C++/Algorithm_Training/CMakeLists.txt G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCXXInformation.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeRCInformation.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-C.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-CXX.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C-ABI.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-CXX-ABI.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-CXX.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-windres.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows.cmake G$:/CLion$ 2023.1.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/WindowsPaths.cmake: phony
 
 
 #############################################

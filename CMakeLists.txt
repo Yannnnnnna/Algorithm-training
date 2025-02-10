@@ -4,3 +4,4 @@ project(Algorithm_Training)
 set(CMAKE_CXX_STANDARD 17)
 
 add_subdirectory(04Dichotomy)
+add_subdirectory(05Prime)
