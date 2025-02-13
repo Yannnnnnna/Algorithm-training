@@ -1,4 +1,7 @@
 "G:\CLion 2023.1.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=G:/CLion 2023.1.2/bin/ninja/win/x64/ninja.exe" -G Ninja -S G:\C++\Algorithm_Training -B G:\C++\Algorithm_Training\cmake-build-debug
 -- Configuring done
--- Generating done
--- Build files have been written to: G:/C++/Algorithm_Training/cmake-build-debug
+CMake Error at CMakeLists.txt:8 (add_executable):
+  No SOURCES given to target: 06FastPower
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
