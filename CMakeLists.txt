@@ -7,4 +7,5 @@ add_subdirectory(04Dichotomy)
 add_subdirectory(05Prime)
 add_subdirectory(06FastPower)
 add_subdirectory(07AccuracyCalculations)
+add_subdirectory(08Cupidity)
 
