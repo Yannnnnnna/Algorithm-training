@@ -1,0 +1,2 @@
+add_executable(HanoiTower HanoiTower.cpp)
+add_executable(MaxSubarraySum MaxSubarraySum.cpp)
