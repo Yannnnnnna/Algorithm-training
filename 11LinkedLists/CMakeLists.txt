@@ -1,0 +1,3 @@
+add_executable(InvertLinkedList InvertLinkedList.cpp)
+add_executable(TrainingPlan TrainingPlan.cpp)
+add_executable(LinkedLists LinkedLists.cpp)
