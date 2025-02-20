@@ -10,4 +10,5 @@ add_subdirectory(0708AccuracyCalculations)
 add_subdirectory(09Cupidity)
 add_subdirectory(10RecursionAndPartition)
 add_subdirectory(11LinkedLists)
+add_subdirectory(12StacksAndQueues)
 

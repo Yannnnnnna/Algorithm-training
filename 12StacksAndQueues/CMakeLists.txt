@@ -1,0 +1,2 @@
+add_executable(P4387 P4387.cpp)
+add_executable(AsteroidCollisions AsteroidCollisions.cpp)
