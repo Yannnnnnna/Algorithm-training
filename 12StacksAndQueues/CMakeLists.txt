@@ -1,2 +1,4 @@
 add_executable(P4387 P4387.cpp)
 add_executable(AsteroidCollisions AsteroidCollisions.cpp)
+add_executable(MonotonicStacks MonotonicStacks.cpp)
+add_executable(CatchRainwater CatchRainwater.cpp)

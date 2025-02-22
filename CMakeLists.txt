@@ -11,4 +11,5 @@ add_subdirectory(09Cupidity)
 add_subdirectory(10RecursionAndPartition)
 add_subdirectory(11LinkedLists)
 add_subdirectory(12StacksAndQueues)
+add_subdirectory(13BinaryTree)
 
