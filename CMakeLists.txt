@@ -12,4 +12,4 @@ add_subdirectory(10RecursionAndPartition)
 add_subdirectory(11LinkedLists)
 add_subdirectory(12StacksAndQueues)
 add_subdirectory(13BinaryTree)
-
+add_subdirectory(14AndCheckTheCollection)
