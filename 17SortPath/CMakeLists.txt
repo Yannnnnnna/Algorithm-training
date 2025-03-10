@@ -1,3 +1,5 @@
 add_executable(BellmanFord BellmanFord.cpp)
 add_executable(DijkstraPro DijkstraPro.cpp)
 add_executable(SPFA SPFA.cpp)
+add_executable(P8802 P8802.cpp)
+add_executable(P1462 P1462.cpp)
