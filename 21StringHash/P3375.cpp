@@ -7,12 +7,12 @@
 #include <string>
 
 using namespace std;
-int nex[105];
+int nex[1000005];
 void getNext(char s[]){
     int len = strlen(s);
     int i = 1; //主串
     int j = 0; //模式串
-    while (i + 1 < len){
+    while (i + 1 <= len){
         if(j == -1 || s[i] == s[j]){
             i++;
             nex[i] = j + 1;
@@ -24,7 +24,7 @@ void getNext(char s[]){
 }
 
 int main(){
-    char p[105], s[105];
+    char p[1000005], s[1000005];
     scanf("%s", &p);
     getchar();
     scanf("%s", &s);
@@ -33,10 +33,7 @@ int main(){
     //KMP
     int pLen = strlen(p);
     int sLen = strlen(s);
-    if(pLen == 0 || sLen == 0){
-        printf("failed\n");
-        return 0;
-    }
+
     int i = 0;
     int j = 0;
     while (i < pLen && j < sLen){
@@ -46,9 +43,13 @@ int main(){
         } else{
             j = nex[j];
         }
+        if(j == sLen){
+            printf("%d\n", i - sLen + 1);
+            j = nex[j];
+        }
     }
-    if(j >= sLen){
-        printf("%d\n", i - j);
+    for (int k = 1; k <= sLen; ++k) {
+        printf("%d ", nex[k]);
     }
     return 0;
 }
