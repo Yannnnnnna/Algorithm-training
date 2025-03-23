@@ -7,3 +7,5 @@ add_executable(P1048 P1048.cpp)
 add_executable(
         P1616 P1616.cpp
 )
+add_executable(P1896 P1896.cpp)
+add_executable(P1352 P1352.cpp)

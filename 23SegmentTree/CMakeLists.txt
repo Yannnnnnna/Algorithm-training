@@ -1,0 +1,1 @@
+add_executable(P3372 P3372.cpp)
