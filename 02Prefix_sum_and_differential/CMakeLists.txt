@@ -1,0 +1,1 @@
+add_executable(P1314 P1314.cpp)
