@@ -1,3 +1,5 @@
 add_executable(NaiveSieving NaiveSieving.cpp)
 add_executable(EhrlichSieve EhrlichSieve.cpp)
 add_executable(EulerSieve EulerSieve.cpp)
+add_executable(P1036 P1036.cpp)
+add_executable(P1069 P1069.cpp)
