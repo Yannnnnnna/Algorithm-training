@@ -9,3 +9,5 @@ add_executable(
 )
 add_executable(P1896 P1896.cpp)
 add_executable(P1352 P1352.cpp)
+add_executable(P1095 P1095.cpp)
+add_executable(P1077 P1077.cpp)
